@@ -3,11 +3,6 @@ import logo from './logo.svg';
 import './App.css';
 import STLViewer from 'stl-viewer';
 
-import Amplify from 'aws-amplify';
-import awsConfig from './aws-exports';
-
-Amplify.configure(awsConfig);
-
 function App() {
   return (
     <div className="App">
