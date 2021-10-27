@@ -26,11 +26,13 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <STLViewer
-            url='https://quicklearn.online/models/monkey-test.stl'
+            url='https://quicklearn.online/models/test-monkey.stl'
             width={400}
             height={400}
-            model={test}
+            modelColor='#B92C2C'
+            backgroundColor='#EAEAEA'
             rotate={true}
+            orbitControls={true}
         />
         <p>
             Testing the systems for launch!
